@@ -8,6 +8,9 @@
     #seeking_submissions .sk_sub_dtls .accordion .card-body {
         min-height: 270px;
     }
+    #seeking_submissions .sk_sub_dtls .accordion .card .card-header {
+        padding: 0.5rem 0.45rem;
+    }
     #seeking_submissions .sk_sub_dtls .accordion .card .card-header button {
         font-size: 22px;
     }
@@ -195,5 +198,12 @@
     }
     #horizontal_tabs .tabs_main .tab button {
         width: 100%;
+    }
+    #seeking_submissions .sk_sub_dtls .accordion .card-body {
+        min-height: 270px;
+        padding: 0 20px 20px;
+    }
+    #seeking_submissions .sk_sub_dtls .accordion .card .card-header {
+        padding: 0.5rem 0.45rem;
     }
 }
