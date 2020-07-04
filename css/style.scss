@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fff;
+}
+
+.container{
+    max-width: 1370px;
+}
+
+/*************************************** hero banner *****************************************/
+
+#mcm_hero{
+    background: url(../Images/banner_img.png) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+
+    .hero_ttl{
+        h1{
+            font-family: 'Montserrat';
+            font-weight: 700;
+            color: white;
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+    }
+    .hero_dtls{
+        h3{
+            font-family: 'Montserrat';
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0;
+            font-size: 21px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 21px;
+            color: white;
+            line-height: 35px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+/************************************* corona resources *********************************/
+
+#hero_blo_resources{
+    background: #222222;
+    padding: 20px 0;
+    margin-top: -1px;
+    .corona_resources{
+        display: flex;
+        width: 100%;
+        width: fit-content;
+        margin: 0 auto;
+        align-items: center;
+        p{
+            margin-bottom: 0;
+        }
+        a{
+            font-family: 'Montserrat';
+            font-size: 16px;
+            color: white;
+            text-decoration: underline;
+        }
+
+        .resources_ttl{
+            margin-right: 22px;
+            p{
+                color: white;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+        .resources_dtls{
+            display: flex;
+
+            .sprtr{
+                color: rgba($color: #fff, $alpha: 0.7);
+                margin: 0 15px;
+            }
+
+        }
+    }
+}
+
+/******************************** response_dashboard ********************************/
+
+.sec_ttl{
+    margin-bottom: 30px;
+    h3{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        color: #1e1e24;
+        font-size: 36px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    p{
+        font-family: 'Roboto';
+        font-weight: 400;
+        color: #404040;
+        font-size: 20px;
+        text-align: center;
+        margin: 15px 0 0;
+        line-height: 33px;
+    }
+}
+
+#response_dashboard{
+    padding: 70px 0;
+    background: #f8f8f8;
+
+    .content_individual{
+        text-align: center;
+
+        .content_img{
+            img{
+                width: initial;
+            }
+        }
+        .content_dtl{
+            margin-top: 20px;
+            p{
+                font-family: 'Roboto';
+                font-size: 20px;
+                line-height: 33px;
+                margin-bottom: 0;
+                font-weight: 400;
+                color: #1e1e24;
+            }
+        }
+    }
+}
+
+/********************************* seeking_submissions ********************************/
+
+#seeking_submissions{
+    padding: 70px 0;
+
+    .sk_sub_img{
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .sk_sub_dtls{
+        .accordion{
+            .card{
+                margin-bottom: 25px;
+                border: none;
+
+                .card-header{
+                    margin-bottom: -2px;
+                    button{
+                        color: #366fc0;
+                        font-size: 25px;
+                        font-family: 'Montserrat';
+                        font-weight: 700;
+
+                        &:focus{
+                            box-shadow: none;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .card.last{
+                margin-bottom: 0 !important;
+            }
+            .card-body {
+                background: #f8f8f8;
+                font-family: 'Roboto';
+                font-size: 18px;
+                font-weight: 400;
+                color: #1e1e24;
+                padding: 0 35px 20px;
+                min-height: 256px;
+            }
+        }
+    }
+}
+
+/*************************************** meeting_wd_agency ***************************************/
+
+#meeting_wd_agency{
+    padding: 70px 0;
+    background: #f8f8f8;
+
+    .main_content{
+        text-align: center;
+
+        .heading{
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 30px;
+            color: #404040;
+            margin-bottom: 10px;
+        }
+        .info{
+            font-family: 'Roboto';
+            font-weight: 700;
+            color: #02554c;
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+        .yon{
+            font-family: 'Roboto';
+            font-weight: 700;
+            color: #404040;
+            font-size: 21px;
+            margin-bottom: 10px;
+        }
+    }
+    .process_to_meet{
+        padding: 30px 0;
+        
+        .process_individual{
+            display: flex;
+            align-items: center;
+            background: url(../Images/Untitled-8.png) no-repeat;
+            background-position: right;
+            background-size: contain;
+            padding: 70px 20px;
+            p{
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 18px;
+                color: #404040;
+                margin-bottom: 0;
+            }
+
+            .numbering{
+                margin-right: 15px;
+                p{
+                    font-size: 33px;
+                    font-weight: 700;
+                    color: #fff;
+                    background: #366fc0;
+                    padding: 7px 20px;
+                    border-radius: 50%;
+                }
+            }
+            .process_info{
+                span {
+                    color: #92140c;
+                    font-weight: 700;
+                }
+                a{
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .process_info.mdl{
+                p{
+                    padding-right: 20%;
+                }
+            }
+        }
+        .process_individual.lst{
+            background: #fff !important;
+            padding: 45px 20px;
+            margin-top: 25px;
+        }
+    }
+
+    .btm_info{
+        font-family: 'Roboto';
+        font-size: 20px;
+        color: #404040;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .meeting_for{
+        margin: 40px 0;
+        padding: 0 12px;
+
+        .col-lg-6{
+            padding: 3px;
+
+            .meeting_for_individual{
+                padding: 100px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                a{
+                    text-align: center;
+
+                    &:hover{
+                        text-decoration: underline #fff;
+                    }
+    
+                    h3{
+                        font-family: 'Montserrat';
+                        font-size: 25px;
+                        color: white;
+                        font-weight: 700;
+                        margin-bottom: 5px;
+                        text-transform: uppercase;
+
+                        &:hover{
+                            text-decoration: underline #fff;
+                        }
+                    }
+                    p{
+                        font-family: 'Roboto';
+                        font-size: 21px;
+                        color: white;
+                        margin-bottom: 0;
+
+                        
+                        &:hover{
+                            text-decoration: underline #fff;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .meeting_for_individual.vaccine{
+            background: url(../Images/vaccine.png) no-repeat center;
+            background-size: cover;
+        }
+        .meeting_for_individual.diagnostic{
+            background: url(../Images/diagnostics.png) no-repeat center;
+            background-size: cover;
+        }
+        .meeting_for_individual.therapy{
+            background: url(../Images/therapybg.png) no-repeat center;
+            background-size: cover;
+        }
+        .meeting_for_individual.other{
+            background: url(../Images/Untitled-10.png) no-repeat center;
+            background-size: cover;
+        }
+    }
+    .sec_btm_para{
+        p{
+            font-family: 'Roboto';
+            font-size: 21px;
+            color: #404040;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+}
+
+/************************************ corona_tech_watch *********************************/
+
+#corona_tech_watch{
+    padding: 70px 0;
+    background: url(../Images/Untitled-14.png) no-repeat center;
+    background-size: cover;
+
+    .main_ttl{
+        h3{
+            font-family: 'Montserrat';
+            font-size: 36px;
+            color: white;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+    }
+    .main_dtls{
+        p{
+            font-family: 'Roboto';
+            font-size: 21px;
+            font-weight: 400;
+            color: white;
+            margin-bottom: 20px;
+            line-height: 33px;
+        }
+    }
+    .main_btn{
+        button{
+            color: white;
+            font-family: 'Roboto';
+            font-size: 21px;
+            font-weight: 500;
+            padding: 10px 30px;
+            background: transparent;
+            border: 2px solid #fff;
+            margin-top: 10px;
+            border-radius: 0;
+
+            &:hover{
+                background: #fff;
+                color: #02554d;
+            }
+        }
+    }
+}
+
+/**************************************** Horizontal tabs ***********************************/
+
+#horizontal_tabs{
+    padding: 70px 0;
+
+    .tabs_main{
+        .tab {
+            overflow: hidden;
+            background-color: #f8f8f8;
+
+            button {
+                background-color: inherit;
+                float: left;
+                width: 33.3%;
+                height: 100%;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 25px 10px;
+                line-height: 40px;
+                transition: 0.3s;
+                color: #c67204;
+                font-size: 25px;
+                font-family: 'Montserrat';
+                font-weight: 700;
+
+                &:hover {
+                    background-color: #ddd;
+                }
+
+                &.active {
+                    background-color: #c67204;
+                    color: white;
+                }
+            }
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 50px 0 0;
+            border-top: none;        
+            animation: fadeEffect 1s; 
+            
+            &.visible{
+                display: block;
+            }
+
+            .fas.fa-check{
+                margin-right: 5px;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
