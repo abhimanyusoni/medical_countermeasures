@@ -121,6 +121,7 @@
         padding: 0 15px;
     }
     #mcm_hero {
+        padding: 150px 0;
         height: 100vh;
         display: grid;
         align-items: center;
