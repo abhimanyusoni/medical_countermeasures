@@ -171,6 +171,15 @@ body{
                             box-shadow: none;
                             text-decoration: none;
                         }
+
+                        &.plus{
+                            background: url(../Images/plus.svg) no-repeat right;
+                            background-size: 25px;
+                        }
+                        &.minus{
+                            background: url(../Images/minus.svg) no-repeat right;
+                            background-size: 25px;
+                        }
                     }
                 }
             }
